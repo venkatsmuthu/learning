@@ -1,0 +1,49 @@
+RegEx in Python
+import re
+
+Stemming
+-------------
+import nltk
+from nltk.stem import PorterStemmer
+porter_stemmer = PorterStemmer()
+words = ["running", "jumps", "happily", "programming"]
+stemmed_words = [porter_stemmer.stem(word) for word in words]
+print("Original words:", words)
+print("Stemmed words:", stemmed_words)
+
+
+[99,86,87,88,111,86,103,87,94,78,77,85,86]
+Mean
+(99+86+87+88+111+86+103+87+94+78+77+85+86) / 13 = 89.77
+
+Median
+77, 78, 85, 86, 86, 86, (87), 87, 88, 94, 99, 103, 111  = 87
+
+Mode
+99, (86) ,87,88,111, (86) ,103,87,94,78,77,85, (86)   = 86
+
+Standard Deviation
+how spread out the values are. 
+(99,86,87,88,111,86,103,87,94,78,77,85,86)   = 9.25
+low SD means that most of the numbers are close to the mean.
+high SD means that the values are spread out over a wider range.
+
+variance
+square root of the variance is standard deviation
+(99,86,87,88,111,86,103,87,94,78,77,85,86) = 85.71
+
+Linear Regression
+Linear regression uses the relationship between the data-points to draw a straight line through all them.
+slope (slope of the line),  intercept ( intecpting point of line with y-axis)
+r - how the relationship; -1 to 1; -1 & 1 max relationship (best fit line); 0 no relationship (bad fit line)
+import matplotlib.pyplot as plt
+from scipy import stats
+x = [1,2,3,4,5]
+y = [100,90,80,70,60]
+slope, intercept, r, p, std_err = stats.linregress(x, y)
+def myfunc(x):
+  return slope * x + intercept
+mymodel = list(map(myfunc, x))
+plt.scatter(x, y)
+plt.plot(x, mymodel)
+plt.show()
