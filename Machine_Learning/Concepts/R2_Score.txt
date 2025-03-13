@@ -1,0 +1,33 @@
+R2-Score
+-------
+R2 score used to evauate the performance of Linear Regression model.
+Model explains the amount variance in the output prdicted form the input.
+
+R2 scrore = 1- ( SS(residual) / SS(total)
+SS-sum of squares
+residual = Atual - Predicted
+Total = Atual - Mean
+
+Atual	Predicted
+10		10
+20		20
+30		30
+mean =20
+R2= 1-(((10-10)^2 + (20-20)^2 + (30-30)^2)) / ((10-20)^2 + (20-20)^2 + (30-20)^2) = 1 - ( 0 / 200 ) = 1
+Model behaves better than predict of Mean
+
+Atual	Predicted
+10		20
+20		20
+30		20
+mean =20
+R2= 1-(((10-20)^2 + (20-20)^2 + (30-20)^2)) / ((10-20)^2 + (20-20)^2 + (30-20)^2) = 1 - ( 200 / 200 ) = 0
+Model behaves equal to predict of Mean
+
+Atual	Predicted
+10		30
+20		10
+30		20
+mean =20
+R2= 1-(((10-30)^2 + (20-10)^2 + (30-20)^2)) / ((10-20)^2 + (20-20)^2 + (30-20)^2) = 1 - ( 600 / 200 ) = -2
+Model behaves worse than predict of Mean
