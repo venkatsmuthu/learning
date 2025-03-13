@@ -1,0 +1,20 @@
+Metrics in Machine Learning
+===========================
+Classification Evaluation metrics
+-----------------------
+Accuracy
+Logarithmic loss
+Area under Curve
+F1 score
+Precision
+Recall
+Confusion Matrix
+
+
+Regression Evaluation Metrics
+----------------------------
+Mean Absolute Error
+Mean Squared Error
+Root Mean Square Error
+Root Mean Square Logarithmic Error
+R2 – Score
