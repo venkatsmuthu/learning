@@ -4,10 +4,29 @@ Classification Evaluation metrics
 -----------------------
 Accuracy
 Logarithmic loss
+	0 to 1
+	0 - better model
+	1 - worse model
 Area under Curve
-F1 score
+	TPR = TP/(TP+FN)
+	FPR = FP/(FP+TN)
+	Plot TPR(y) and FPR(x)
+	0 to 1
+	1 - better model
+	0.5 - random classifier
+	>0.5 - worse than random
 Precision
+	TP/(TP+FP)
 Recall
+	TP/(TP+FN)
+F1 score
+	Hormonic mean of prcision and recall
+	F1 = 2 * (precision * recall) /(precision + recall)
+	A higher F1 score means the model performs well in both correctly identifying positives and avoiding false positives.
+	Use F1 Score when you need a balance between Precision and Recall.
+	Use Precision when false positives are more costly (e.g., detecting fraud).
+	Use Recall when false negatives are more costly (e.g., medical diagnoses).
+
 Confusion Matrix
 
 
