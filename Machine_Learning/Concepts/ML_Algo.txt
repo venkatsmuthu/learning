@@ -23,11 +23,14 @@ sklearn.metrics --> accuracy_score
 
 K-Nearest Neighbor
 --------------------
+minkowski
 -Euclidean distance
 -Manhattan distance
 -Hamming distance
-Select K-Value where we get least mean error
+Select K-Value where we get least mean error and least K value in the plot of (x-Kvalue and y-mean error)
 Feature Scaling - to make all the features contribute equally to the model
+    -Standarization scaling mainly for KNN, SVM
+    -Normalization used for distance, gradient related solutions
 sklearn.model_selection -->train_test_split
 x_train,x_test,y_train,y_test = train_test_split(x,y, test_size = 0.25, random_state = 0)
 sklearn.preprocessing -->StandardScaler
