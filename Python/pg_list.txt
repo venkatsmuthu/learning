@@ -1,3 +1,8 @@
+1) Print numbers 1-10 using for loop and while loop
+2) Print Fibonacci series based on your input (say 10)
+3) Print Factorial for your input (say 5)
+4) Print ODD numbers between 1-50 (for loop range )
+5) Print EVEN numbers between 1-50
 
 for loop  - range
 	for I in range(0,50,2):
