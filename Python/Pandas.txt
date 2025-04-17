@@ -15,4 +15,4 @@ print(dataset.isnull().sum())
 dataset.rename({"sno":"slno"},axis=1)
 dataset["Age"]=[10,20,30,40,50]
 dataset["Sex"] = "M"
-print(dataset)
+print(dataset.sort_values(by=["sno"], ascending=False))
