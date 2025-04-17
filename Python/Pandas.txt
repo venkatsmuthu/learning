@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+data = {"sno":[1,2,3,4,5],"name":['aaa','bbb','ccc',np.nan,'eee']}
+dataset = pd.DataFrame(data)
+print(data)
+print(dataset)
+print(dataset.isnull())
+print(dataset.isnull().sum())
+#dataset.dropna()  #rows removed
+#dataset.dropna(axis=0) #rows removed
+#dataset.dropna(axis=1) #columns removed
+#dataset.dropna(inplace=True) # changes applied to original DF
+#dataset.fillna(value=1)
+#dataset["name"].fillna(value="No Name")
