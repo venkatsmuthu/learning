@@ -12,3 +12,7 @@ print(dataset.isnull().sum())
 #dataset.dropna(inplace=True) # changes applied to original DF
 #dataset.fillna(value=1)
 #dataset["name"].fillna(value="No Name")
+dataset.rename({"sno":"slno"},axis=1)
+dataset["Age"]=[10,20,30,40,50]
+dataset["Sex"] = "M"
+print(dataset)
