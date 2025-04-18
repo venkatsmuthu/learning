@@ -1,8 +1,500 @@
-1) Print numbers 1-10 using for loop and while loop
-2) Print Fibonacci series based on your input (say 10)
-3) Print Factorial for your input (say 5)
-4) Print ODD numbers between 1-50 (for loop range )
-5) Print EVEN numbers between 1-50
-
-for loop  - range
-	for I in range(0,50,2):
+1.	Print "Hello, World!"
+2.	Print numbers from 1 to 100.
+3.	Print even numbers from 1 to 100.
+4.	Print odd numbers from 1 to 100.
+5.	Check if a number is even or odd.
+6.	Find the sum of two numbers.
+7.	Find the difference of two numbers.
+8.	Multiply two numbers.
+9.	Divide two numbers (float result).
+10.	Divide two numbers (integer result).
+11.	Find remainder of division.
+12.	Swap two numbers (with temp).
+13.	Swap two numbers (without temp).
+14.	Check if a number is positive, negative or zero.
+15.	Find maximum of two numbers.
+16.	Find maximum of three numbers.
+17.	Check if a number is between 1 and 100.
+18.	Check if a number is a multiple of 5.
+19.	Print all multiples of 3 up to 100.
+20.	Convert Celsius to Fahrenheit.
+21.	Convert Fahrenheit to Celsius.
+22.	Calculate square of a number.
+23.	Calculate cube of a number.
+24.	Check if a number is divisible by 2 and 3.
+25.	Sum of first N natural numbers.
+26.	Print multiplication table of a number.
+27.	Print reverse of a number.
+28.	Count digits in a number.
+29.	Sum of digits of a number.
+30.	Product of digits of a number.
+31.	Check if a number is a palindrome.
+32.	Check if a number is an Armstrong number.
+33.	Generate first N even numbers.
+34.	Generate first N odd numbers.
+35.	Print ASCII value of a character.
+36.	Convert lowercase to uppercase.
+37.	Convert uppercase to lowercase.
+38.	Find the greatest among four numbers.
+39.	Check if a year is a leap year.
+40.	Find the largest digit in a number.
+41.	Find the smallest digit in a number.
+42.	Calculate power without using **.
+43.	Calculate square root without using math module.
+44.	Print factors of a number.
+45.	Find GCD of two numbers.
+46.	Find LCM of two numbers.
+47.	Check if a number is a prime number.
+48.	Find all prime numbers up to N.
+49.	Reverse a string.
+50.	Count vowels in a string.
+51.	Print triangle pattern of stars.
+52.	Print inverted triangle of stars.
+53.	Print right-aligned triangle.
+54.	Print pyramid pattern.
+55.	Print number triangle pattern.
+56.	Print Fibonacci series.
+57.	Find factorial using for loop.
+58.	Find factorial using while loop.
+59.	Find factorial using recursion.
+60.	Generate Fibonacci using recursion.
+61.	Print all Armstrong numbers between 1 to 1000.
+62.	Count prime numbers between 1 to N.
+63.	Find sum of series: 1 + 2 + 3 + ... + N
+64.	Find sum of even numbers between 1 to N.
+65.	Find sum of odd numbers between 1 to N.
+66.	Calculate sum of squares from 1 to N.
+67.	Calculate sum of cubes from 1 to N.
+68.	Print numbers in reverse from N to 1.
+69.	Print numbers in reverse skipping 2.
+70.	Count how many digits in a number.
+71.	Count even and odd digits in a number.
+72.	Count how many times a digit appears.
+73.	Check if a number is a strong number.
+74.	Check if a number is a perfect number.
+75.	Find all perfect numbers from 1 to 1000.
+76.	Calculate sum of geometric progression.
+77.	Print a hollow square pattern.
+78.	Print a diamond pattern.
+79.	Print Pascal's Triangle.
+80.	Print Floyd's Triangle.
+81.	Find sum of a harmonic series.
+82.	Print first N palindromes.
+83.	Print number pyramid pattern.
+84.	Print alphabet triangle.
+85.	Count lowercase and uppercase characters.
+86.	Replace vowels with a symbol in a string.
+87.	Reverse each word in a string.
+88.	Count spaces in a string.
+89.	Find frequency of characters in a string.
+90.	Remove all special characters from string.
+91.	Capitalize first letter of each word.
+92.	Check if two strings are anagrams.
+93.	Remove duplicates from a string.
+94.	Print characters at even positions.
+95.	Print characters at odd positions.
+96.	Print all substrings of a string.
+97.	Print all permutations of a string.
+98.	Check if a string is a palindrome.
+99.	Count words in a string.
+100.	Count digits and alphabets in a string.
+101.	Create a list and print elements.
+102.	Add elements to a list.
+103.	Remove elements from a list.
+104.	Sort a list in ascending order.
+105.	Sort a list in descending order.
+106.	Find max and min from list.
+107.	Count frequency of element in list.
+108.	Find sum of list elements.
+109.	Multiply list elements.
+110.	Check if an element exists in list.
+111.	Merge two lists.
+112.	Find common elements in two lists.
+113.	Find difference between two lists.
+114.	Remove duplicates from list.
+115.	Print all unique elements.
+116.	Find second largest element.
+117.	Find second smallest element.
+118.	Split list into two halves.
+119.	Find average of list elements.
+120.	Rotate list left by 1.
+121.	Rotate list right by 1.
+122.	Find pairs with given sum.
+123.	Print list in reverse.
+124.	Find intersection of two lists.
+125.	Find union of two lists.
+126.	Convert list to tuple.
+127.	Convert tuple to list.
+128.	Print all tuples from a list.
+129.	Count elements in nested list.
+130.	Flatten a nested list.
+131.	Remove all zeros from list.
+132.	Insert element at specific index.
+133.	Remove element by value.
+134.	Delete element by index.
+135.	Find duplicates in a list.
+136.	Get index of element.
+137.	List slicing examples.
+138.	Check if list is sorted.
+139.	Shuffle list randomly.
+140.	Find cumulative sum of list.
+141.	Create list of even numbers.
+142.	Create list of odd numbers.
+143.	Find common numbers in 3 lists.
+144.	Zip two lists into dictionary.
+145.	Split a list into N chunks.
+146.	Group list of tuples by key.
+147.	Sort list of tuples by value.
+148.	Filter list using lambda.
+149.	Print list using loop.
+150.	List comprehension examples.
+151.	Write a function to check prime.
+152.	Write a function to get factorial.
+153.	Write a function to get Fibonacci.
+154.	Create a function to reverse string.
+155.	Count words using function.
+156.	Check palindrome string using function.
+157.	Count vowels using function.
+158.	Convert string to list of chars.
+159.	Convert list of chars to string.
+160.	Check if string is alphanumeric.
+161.	Check if string is numeric.
+162.	Replace substring in string.
+163.	Split string into list of words.
+164.	Join list of words to string.
+165.	Convert camelCase to snake_case.
+166.	Convert snake_case to camelCase.
+167.	Reverse a sentence.
+168.	Remove all whitespace from string.
+169.	Find length of string.
+170.	Find first repeating character.
+171.	Find first non-repeating character.
+172.	Print frequency of each word.
+173.	Check if all characters are unique.
+174.	Replace all digits in string with #.
+175.	Remove vowels from string.
+176.	Find longest word in a sentence.
+177.	Find shortest word in a sentence.
+178.	Swap first and last characters of a string.
+179.	Count repeated words.
+180.	Remove punctuation from string.
+181.	Count how many times a word appears.
+182.	Implement custom split() method.
+183.	Convert string to title case.
+184.	Convert string to upper/lower case without built-in methods.
+185.	Compare two strings without using ==.
+186.	Find longest palindrome substring.
+187.	Check if string has only unique characters.
+188.	Count consonants.
+189.	Find substring in string manually.
+190.	Implement custom replace() method.
+191.	Create acronym for a phrase.
+192.	Remove consecutive duplicate characters.
+193.	Add space between characters.
+194.	Implement Caesar cipher.
+195.	Implement ROT13 encryption.
+196.	Encode string using ASCII values.
+197.	Decode string from ASCII values.
+198.	Convert number to string.
+199.	Convert string to number.
+200.	Check if string is binary.
+201.	Create a dictionary and print keys and values.
+202.	Add a key-value pair to a dictionary.
+203.	Delete a key from a dictionary.
+204.	Check if a key exists in dictionary.
+205.	Merge two dictionaries.
+206.	Get value of a key with default.
+207.	Sort dictionary by keys.
+208.	Sort dictionary by values.
+209.	Count frequency of elements in a list using dictionary.
+210.	Invert a dictionary (swap keys and values).
+211.	Get all keys as list.
+212.	Get all values as list.
+213.	Create nested dictionary.
+214.	Access nested dictionary value.
+215.	Update value of a key.
+216.	Print all key-value pairs using loop.
+217.	Check if dictionary is empty.
+218.	Clear all items in dictionary.
+219.	Copy a dictionary.
+220.	Count word frequency in a string using dict.
+221.	Group items by key in a dictionary.
+222.	Remove duplicates from dictionary values.
+223.	Filter dictionary by value condition.
+224.	Create dictionary from two lists.
+225.	Convert dictionary to list of tuples.
+226.	Convert list of tuples to dictionary.
+227.	Create a default dictionary.
+228.	Use get() to avoid key error.
+229.	Find common keys in two dictionaries.
+230.	Find keys present in one but not in other.
+231.	Create dictionary with squares of numbers.
+232.	Combine two dictionaries with same keys (sum values).
+233.	Create dictionary with list values.
+234.	Count character frequency in a string.
+235.	Dictionary comprehension examples.
+236.	Create set and print elements.
+237.	Add and remove items from set.
+238.	Check if element exists in set.
+239.	Find union of two sets.
+240.	Find intersection of two sets.
+241.	Find difference of two sets.
+242.	Find symmetric difference.
+243.	Remove duplicates from list using set.
+244.	Check if two sets are disjoint.
+245.	Check if one set is subset of another.
+246.	Convert set to list.
+247.	Convert list to set.
+248.	Find length of set.
+249.	Clear all items in a set.
+250.	Set comprehension examples.
+251.	Open and read a file.
+252.	Open and write to a file.
+253.	Append to a file.
+254.	Read file line by line.
+255.	Write list of strings to a file.
+256.	Count number of lines in a file.
+257.	Count number of words in a file.
+258.	Count number of characters in a file.
+259.	Copy content from one file to another.
+260.	Reverse contents of a file.
+261.	Read specific line from file.
+262.	Search for a word in file.
+263.	Replace a word in file.
+264.	Read CSV file and print contents.
+265.	Write to a CSV file.
+266.	Read and print JSON file.
+267.	Write dictionary to JSON file.
+268.	Handle file not found error.
+269.	Handle divide by zero error.
+270.	Handle value error in input.
+271.	Use try-except block.
+272.	Use finally with exception.
+273.	Use multiple except blocks.
+274.	Raise a custom exception.
+275.	Use with open() statement for file.
+276.	Take user input and print it.
+277.	Take space-separated input and convert to list.
+278.	Print current date and time.
+279.	Get today's date only.
+280.	Get current time only.
+281.	Calculate number of days between two dates.
+282.	Add days to a date.
+283.	Find difference in seconds between two times.
+284.	Get all environment variables.
+285.	Get system platform using platform module.
+286.	Generate random number between 1 and 100.
+287.	Shuffle list elements randomly.
+288.	Pick a random item from list.
+289.	Generate a list of N random numbers.
+290.	Create a stopwatch program.
+291.	Countdown timer using loop.
+292.	Create a simple calculator.
+293.	Build a simple password generator.
+294.	Build a number guessing game.
+295.	Check internet connection using Python.
+296.	Simulate dice roll.
+297.	Display calendar for a month.
+298.	Create a timer using time.sleep().
+299.	Convert numbers to words (1 → One).
+300.	Build a simple ATM menu using functions.
+301.	Check if a number is a power of 2.
+302.	Find Nth Fibonacci number using recursion.
+303.	Generate prime numbers using Sieve of Eratosthenes.
+304.	Print prime factors of a number.
+305.	Convert a decimal number to binary.
+306.	Convert binary to decimal.
+307.	Convert decimal to octal.
+308.	Convert decimal to hexadecimal.
+309.	Convert any base to decimal.
+310.	Find sum of digits using recursion.
+311.	Find GCD using recursion.
+312.	Find LCM using recursion.
+313.	Implement binary search.
+314.	Implement linear search.
+315.	Implement bubble sort.
+316.	Implement selection sort.
+317.	Implement insertion sort.
+318.	Sort a list without using sort() or sorted().
+319.	Count number of trailing zeros in factorial.
+320.	Find number of digits in factorial (without computing factorial).
+321.	Calculate compound interest.
+322.	Check if number is a Harshad number.
+323.	Find the digital root of a number.
+324.	Check if a number is a Kaprekar number.
+325.	Find the next prime number after N.
+326.	Find greatest power of 2 less than or equal to N.
+327.	Count binary 1s in a number.
+328.	Reverse binary representation of a number.
+329.	Count number of set bits in an integer.
+330.	Count number of bits to be flipped to convert A to B.
+331.	Find HCF of a list of numbers.
+332.	Find LCM of a list of numbers.
+333.	Find the largest prime factor of a number.
+334.	Find all divisors of a number.
+335.	Count digits of a number without converting to string.
+336.	Print number pattern like a pyramid with center alignment.
+337.	Print square pattern with diagonals.
+338.	Print X pattern using stars.
+339.	Print checkerboard pattern.
+340.	Find smallest number in a list using loop.
+341.	Check if sum of digits is divisible by 3.
+342.	Check if number is palindromic in binary.
+343.	Find largest palindrome smaller than N.
+344.	Find smallest palindrome greater than N.
+345.	Count how many 1s in numbers from 1 to N.
+346.	Count how many times a digit appears from 1 to N.
+347.	Count trailing zeros in binary representation.
+348.	Rotate digits of a number left.
+349.	Rotate digits of a number right.
+350.	Check if number can be expressed as sum of two squares.
+351.	Count substring occurrences in string (without built-in).
+352.	Find longest substring without repeating characters.
+353.	Find first non-repeating character in a string.
+354.	Check if string is pangram.
+355.	Find all possible substrings of a string.
+356.	Count overlapping substrings in a string.
+357.	Remove characters at odd index.
+358.	Remove characters at even index.
+359.	Reverse only vowels in a string.
+360.	Count pairs of characters with given distance.
+361.	Print characters with even ASCII values.
+362.	Encode a string with run-length encoding.
+363.	Decode a run-length encoded string.
+364.	Check if two strings are rotations of each other.
+365.	Find longest common prefix among strings.
+366.	Find longest common suffix among strings.
+367.	Remove all digits from a string.
+368.	Replace all spaces with hyphens.
+369.	Print all palindromic substrings.
+370.	Print longest palindromic substring.
+371.	Replace each character with next character in alphabet.
+372.	Count how many characters need to be removed to make a string a palindrome.
+373.	Count number of anagram pairs in a list of strings.
+374.	Check if characters in string can form palindrome.
+375.	Check if two strings are one edit away (insert, delete, replace).
+376.	Split a list into even and odd numbers.
+377.	Find duplicates in a list without using set.
+378.	Remove all None values from a list.
+379.	Remove all empty strings from a list.
+380.	Extract numbers from a mixed list.
+381.	Extract strings from a mixed list.
+382.	Flatten a nested list using recursion.
+383.	Convert a 2D list into 1D list.
+384.	Sort list of tuples by second value.
+385.	Group list of strings by their first letter.
+386.	Combine elements of same index from multiple lists.
+387.	Count unique elements in a list.
+388.	Check if a list is a palindrome.
+389.	Generate all subsets of a list.
+390.	Find all permutations of a list.
+391.	Rotate a list N times to the right.
+392.	Rotate a list N times to the left.
+393.	Find the first repeating element in a list.
+394.	Find the first non-repeating element in a list.
+395.	Interchange first and last elements in a list.
+396.	Interchange max and min in a list.
+397.	Replace all occurrences of an element in a list.
+398.	Merge two sorted lists into one sorted list.
+399.	Remove adjacent duplicates in a list.
+400.	Create a list of tuples from two lists (index-wise).
+401.	Define a function to check if a number is prime.
+402.	Define a function to return factorial using recursion.
+403.	Define a function to return Fibonacci list up to N.
+404.	Define a function to reverse a string.
+405.	Define a function to check if a list is sorted.
+406.	Define a function to check for palindrome using slicing.
+407.	Define a function to return maximum of three numbers.
+408.	Define a function to calculate area of circle.
+409.	Define a function to convert temperature (C to F).
+410.	Define a function to count vowels in a string.
+411.	Use a lambda function to square a number.
+412.	Use map() to square each element in a list.
+413.	Use filter() to remove even numbers from a list.
+414.	Use reduce() to find product of a list.
+415.	Write a function to flatten a nested list.
+416.	Use *args to sum all inputs.
+417.	Use **kwargs to accept keyword arguments.
+418.	Write a recursive function to find sum of digits.
+419.	Write a recursive function to find power of number.
+420.	Define a function to check if a string is anagram.
+421.	Define a function that returns unique elements of list.
+422.	Define a function to return second largest in a list.
+423.	Define a function to calculate BMI.
+424.	Define a function to return common elements in two lists.
+425.	Define a function to convert string to title case.
+426.	Create a function that takes another function as argument.
+427.	Write a function to check perfect square.
+428.	Define a function to print Pascal’s Triangle.
+429.	Define a function to generate prime numbers between two numbers.
+430.	Define a function to validate email format.
+431.	Define a function to print all divisors of a number.
+432.	Use function to check if a string contains only alphabets.
+433.	Use function to calculate permutations and combinations.
+434.	Define a function to compute compound interest.
+435.	Define a function to count capital letters in string.
+436.	Write a function to convert a string into CamelCase.
+437.	Write a function to compress a string (remove extra spaces).
+438.	Write a function to return sum of all odd numbers in a list.
+439.	Define a function to return length of longest word.
+440.	Define a function to multiply all elements in a list.
+441.	Write a recursive function to print countdown.
+442.	Write a recursive function to reverse a list.
+443.	Write a recursive function to find min in a list.
+444.	Define a function that returns number of uppercase & lowercase letters.
+445.	Write a function to remove punctuation from a string.
+446.	Write a function that returns the median of a list.
+447.	Write a function to find mode of a list.
+448.	Write a function to convert int to Roman numeral.
+449.	Write a function to convert Roman numeral to int.
+450.	Create a function that returns number of words in a sentence.
+451.	Create a class Person with name and age attributes.
+452.	Add a method to display person’s details.
+453.	Add a constructor to initialize object.
+454.	Create class Circle with method to compute area.
+455.	Create class Rectangle and compute area and perimeter.
+456.	Inherit class Student from class Person.
+457.	Use super() in inherited class.
+458.	Add private variable to a class.
+459.	Add class variable and method to access it.
+460.	Add static method to a class.
+461.	Add __str__ method to class for custom print.
+462.	Overload + operator for custom class.
+463.	Create a class with method chaining.
+464.	Use property decorator for getter and setter.
+465.	Define a class with default parameter.
+466.	Create multiple instances of a class.
+467.	Count number of objects created using class variable.
+468.	Write class to model a Bank Account.
+469.	Add deposit and withdraw methods.
+470.	Write class to manage student grades.
+471.	Create class with list of books in a library.
+472.	Model a shopping cart using a class.
+473.	Create a class that reads and writes to file.
+474.	Write a class with built-in __len__() and __eq__() methods.
+475.	Demonstrate multiple inheritance in Python.
+476.	Write a program to calculate age from date of birth.
+477.	Write a program to generate a QR code.
+478.	Write a program to send an email (using smtplib).
+479.	Write a program to list files in a directory.
+480.	Create stopwatch GUI using tkinter.
+481.	Create a to-do list CLI program.
+482.	Write a program to detect duplicate files in a folder.
+483.	Build a simple weather app using API (e.g., OpenWeather).
+484.	Create a digital clock using Python.
+485.	Build a number guessing game using OOP.
+486.	Create a text-based calculator.
+487.	Build a unit converter (e.g., inches to cm).
+488.	Create a simple address book using dictionary.
+489.	Build a random password generator with user input length.
+490.	Create a dice rolling simulator.
+491.	Display current working directory.
+492.	Rename files in a folder using Python.
+493.	Build a simple chatbot using if-else logic.
+494.	Create an alarm clock using Python.
+495.	Convert images from JPG to PNG using PIL.
+496.	Generate a bar chart using matplotlib.
+497.	Plot a sine wave using NumPy and Matplotlib.
+498.	Export list of dictionaries to CSV.
+499.	Read Excel file using pandas.
+500.	Create a histogram of random numbers using matplotlib.
