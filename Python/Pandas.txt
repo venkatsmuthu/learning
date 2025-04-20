@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 data = {"sno":[1,2,3,4,5],"name":['aaa','bbb','ccc',np.nan,'eee']}
 dataset = pd.DataFrame(data)
-print(data)
-print(dataset)
-print(dataset.isnull())
-print(dataset.isnull().sum())
+#print(data)
+#print(dataset)
+#print(dataset.isnull())
+#print(dataset.isnull().sum())
 #dataset.dropna()  #rows removed
 #dataset.dropna(axis=0) #rows removed
 #dataset.dropna(axis=1) #columns removed
@@ -21,3 +21,26 @@ dataset["age"] = [30,25,40,0,50]
 mean_age = dataset.age.mean()
 dataset.age.map(lambda x: mean_age - x)
 
+import numpy as np
+print(dataset)
+print(dataset.shape)
+total_cells = np.multiply(dataset.shape[0],dataset.shape[1])
+print(total_cells)
+missing_cell_count = dataset.isnull().sum()
+missing_total = missing_cell_count.sum()
+missig_prcentage = (missing_total/total_cells)*100
+print(missig_prcentage)
+
+dataset["mark1"] = [10,np.nan,np.nan,40,50]
+print(dataset)
+dataset_new = dataset.ffill(axis=0)
+dataset_new = dataset.ffill(axis=0)
+print(dataset_new)
+
+#import datetime
+#to_datetime(landslides['date'], format="%m/%d/%y")
+#pd.to_datetime(landslides['Date'], infer_datetime_format=True if different dates used forsame column
+
+dataset.columns
+dataset.dtypes
+dataset.info(verbose=True)
