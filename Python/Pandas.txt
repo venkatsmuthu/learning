@@ -17,31 +17,52 @@ dataset = pd.DataFrame(data)
 #dataset["Sex"] = "M"
 #print(dataset.sort_values(by=["sno"], ascending=False))
 #print(dataset.name.value_counts())
-dataset["age"] = [30,25,40,0,50]
-mean_age = dataset.age.mean()
-dataset.age.map(lambda x: mean_age - x)
+#dataset["age"] = [30,25,40,0,50]
+#mean_age = dataset.age.mean()
+#dataset.age.map(lambda x: mean_age - x)
 
 import numpy as np
-print(dataset)
-print(dataset.shape)
+#print(dataset)
+#print(dataset.shape)
 total_cells = np.multiply(dataset.shape[0],dataset.shape[1])
-print(total_cells)
+#print(total_cells)
 missing_cell_count = dataset.isnull().sum()
 missing_total = missing_cell_count.sum()
 missig_prcentage = (missing_total/total_cells)*100
-print(missig_prcentage)
+#print(missig_prcentage)
 
 dataset["mark1"] = [10,np.nan,np.nan,40,50]
-print(dataset)
+#print(dataset)
 dataset_new = dataset.ffill(axis=0)
 dataset_new = dataset.ffill(axis=0)
-print(dataset_new)
+#print(dataset_new)
 
 #import datetime
 #to_datetime(landslides['date'], format="%m/%d/%y")
 #pd.to_datetime(landslides['Date'], infer_datetime_format=True if different dates used forsame column
 
-dataset.columns
-dataset.dtypes
-dataset.info(verbose=True)
+#dataset.columns
+#dataset.dtypes
+#dataset.info(verbose=True)
+#dataset.select_dtypes(include=['int64'])
+#dataset.axes
+#dataset.size
+#dataset.memory_usage()
+#dataset.keys()
+
+if dataset.empty:
+  print("Empty")
+else:
+  print("Not Empty")
+
+#for index,row in dataset.iterrows():
+#  print(index,row["name"])
+
+#dataset.agg({'mark1': ['sum', 'min', 'max'], 'name': 'count'})
+
+'''dataset_dup = pd.DataFrame({"col1":[10,20,10,30,40],"col2":[100,200,100,400,500]})
+print(dataset_dup)
+print(dataset_dup.duplicated())
+dataset_dup.drop_duplicates(inplace=True)
+print(dataset_dup)'''
 
