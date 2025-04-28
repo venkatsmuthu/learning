@@ -30,3 +30,17 @@ obj = sample_class("Apple",10)
 obj2 = sample_class("Mango",20)
 print(obj)
 print(obj2)
+
+class parent_class:
+  def __init__(self,name,age):
+    self.name=name
+    self.age=age
+  def print_mthd(self):
+    print(self.name)
+    print(self.age)
+obj = parent_class("Apple",10)
+obj.print_mthd()
+class child_class(parent_class):
+  pass
+obj2 = child_class("Mango",20)
+obj2.print_mthd()
