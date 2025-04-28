@@ -1,12 +1,12 @@
 class sample_class:
+  class_name = "Candidate"
   def __init__(self,name,age):
     self.name=name
     self.age=age
-  def print_mthd(self):
-    print(self.name)
-    print(self.age)
 obj = sample_class("Apple",10)
-obj.print_mthd()
+print(sample_class.class_name)
+print(obj.name)
+print(obj.age)
 
 
 class sample_class:
