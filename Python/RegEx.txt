@@ -31,36 +31,11 @@ print(re.split(r'\d',text_split))
 print(re.split(r'\D',text_split))
 print(re.split(r'\s',text_split))
 print(re.split(r'\W+',text_split))
-import re
-sample_text = """
-The event will be held on 2025-05-15 at the central park. Participants can register at www.example.com/register?event=1234&location=central_park. 
-For any inquiries, please contact us at support@example.org or call 800-555-9876. Special discounts of 25% are available on selected items (Code: SPRING2025)!
-Remember, the registration deadline is 2025/05/10. You can also follow us on social media: @Event_2025 for live updates.
 
-Items available for sale include:
-1. Event Tickets - $99.99 each
-2. VIP Passes - $499.00 each
-3. Event Merchandise (T-shirts, Hats) - Prices vary"""
-#print(sample_text)
-match = re.findall('\d+',sample_text)
-match = re.findall('\d+-\d+-\d+',sample_text)
+print(re.search('is',text_split))
+print(re.search('is',text_split).span())
+print(re.search('is',text_split).start())
+print(re.search('is',text_split).end())
+print(re.search('is',text_split).group())
 
-pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'
-emails = re.findall(pattern, sample_text)
-print(emails)
-
-pattern = r'\b\d{1,3}[-.\s]?\d{3}[-.\s]?\d{4}\b'
-phone_numbers = re.findall(pattern, sample_text)
-print(phone_numbers)
-
-pattern = r'\b(\d{4}[-/]\d{2}[-/]\d{2})|(\d{2}[-/]\d{2}[-/]\d{4})\b'
-dates = re.findall(pattern, sample_text)
-print(dates)
-
-text_split = "This text is used to split word's 123 numbers"
-print(re.split(r'\w',text_split))
-print(re.split(r'\W',text_split))
-print(re.split(r'\d',text_split))
-print(re.split(r'\D',text_split))
-print(re.split(r'\s',text_split))
-print(re.split(r'\W+',text_split))
+print(re.findall('is',text_split))
