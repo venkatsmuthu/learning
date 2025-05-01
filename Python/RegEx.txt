@@ -39,3 +39,4 @@ print(re.search('is',text_split).end())
 print(re.search('is',text_split).group())
 
 print(re.findall('is',text_split))
+
