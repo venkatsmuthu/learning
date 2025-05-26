@@ -1,3 +1,4 @@
+
 class sample_class:
   class_name = "Candidate"
   def __init__(self,name,age):
