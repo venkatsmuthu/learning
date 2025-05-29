@@ -21,7 +21,6 @@ dataset = pd.DataFrame(data)
 #mean_age = dataset.age.mean()
 #dataset.age.map(lambda x: mean_age - x)
 
-
 import numpy as np
 #print(dataset)
 #print(dataset.shape)
