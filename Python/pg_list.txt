@@ -1,4 +1,4 @@
-1.	Print "Hello, World!".
+1.	Print "Hello, World!"
 2.	Print numbers from 1 to 100.
 3.	Print even numbers from 1 to 100.
 4.	Print odd numbers from 1 to 100.
