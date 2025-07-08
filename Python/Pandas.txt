@@ -31,6 +31,7 @@ missing_total = missing_cell_count.sum()
 missig_prcentage = (missing_total/total_cells)*100
 #print(missig_prcentage)
 
+
 dataset["mark1"] = [10,np.nan,np.nan,40,50]
 #print(dataset)
 dataset_new = dataset.ffill(axis=0)
