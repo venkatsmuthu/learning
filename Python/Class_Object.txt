@@ -32,6 +32,7 @@ obj2 = sample_class("Mango",20)
 print(obj)
 print(obj2)
 
+
 class parent_class:
   def __init__(self,name,age):
     self.name=name
