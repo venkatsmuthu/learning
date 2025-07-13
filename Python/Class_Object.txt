@@ -9,7 +9,6 @@ print(sample_class.class_name)
 print(obj.name)
 print(obj.age)
 
-
 class sample_class:
   def __init__(self,name,age):
     self.name=name
